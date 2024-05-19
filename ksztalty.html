@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <title>Figury</title>
+	<style>
+        body{
+            background-color: #464444;
+        }
+        .kwadrat{
+            width: 50px;
+            height: 50px;
+            background-color: red;
+        }
+        .prostokat{
+            width: 100px;
+            height: 50px;
+            background-color: blue;
+        }
+        .kolo{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: green;
+        }
+        .owal{
+            width: 100px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: purple;
+        }
+        .trapez{
+            width: 100px;
+            height: 0px;
+            border-bottom: 80px solid aqua; /* wplywa na wysokosc*/
+            border-left: 40px solid transparent; /*wplywa na dlugosc, ramiona boczne*/
+            border-right: 40px solid transparent;
+        }
+        .trojkat{
+            width: 0px;
+            height: 0px;
+            border-bottom: 100px solid lime;
+            border-right: 40px solid transparent;
+            border-left: 40px solid transparent;
+        }
+        /*klasy do testu*/ 
+        .test{
+            background-color: #619ee4;
+            width:600px;
+            height:400px;
+        }
+        .trawa{
+            background-color: #40d83b;
+            height: 100px;
+            position: relative;
+            top: 300px;
+        }
+        .dom{
+            background-color: #e0e24f;
+            height: 110px;
+            width: 280px;
+            position: relative;
+            top: 90px;
+            left: 160px;
+        }
+        .dach{
+            
+            width: 0px;
+            height: 0px;
+            border-bottom: 100px solid #ce3737;;
+            border-right: 160px solid transparent;
+            border-left: 160px solid transparent;
+            position:relative;
+            top: -120px;
+            right: -140px;
+        }
+        .slonce{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: #f8e112;
+            position: relative;
+            top: -300px;
+            right: -500px;
+        }
+    </style>
+		
+</head>
+<body>
+    
+		<div class="kwadrat"></div>
+        <br>
+        <div class="prostokat"></div>
+        <br>
+        <div class="kolo"></div>
+        <br>
+        <div class="owal"></div>
+        <br>
+        <div class="trapez"></div>
+        <br>
+        <div class="trojkat"></div>
+        <br>
+        <div class="test">
+            <div class="trawa"></div>
+            <div class="dom"></div>
+            <div class="dach"></div>
+            <div class="slonce"></div>
+            
+        </div>
+
+
+	
+</body>
+</html>
